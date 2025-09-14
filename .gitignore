@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# dotenv
+.env
+
+# ML models (optional, if too big)
+crop_yield_model.json
