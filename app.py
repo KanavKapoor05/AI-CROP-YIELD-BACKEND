@@ -214,3 +214,5 @@ async def analyze_crop_image_api(
         return JSONResponse(content={"result": result})
     except Exception as e:
         return JSONResponse(content={"error": str(e)}, status_code=400)
+
+
